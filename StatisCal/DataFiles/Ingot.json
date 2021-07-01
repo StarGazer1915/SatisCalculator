@@ -1,0 +1,64 @@
+{
+  "Iron Ingot": [
+    {
+    "name": "Iron Ingot",
+    "machine": "Smelter",
+    "input": { "Iron Ore": 30 },
+    "output": { "Iron Ingot": 30 }
+    },
+    {
+    "name": "Pure Iron Ingot (Alternate)",
+    "machine": "Refinery",
+    "input": { "Iron Ore": 35, "Water": 20 },
+    "output": { "Iron Ingot": 65 }
+    },
+    {
+    "name": "Iron Alloy Ingot (Alternate)",
+    "machine": "Foundry",
+    "input": { "Iron Ore": 20, "Copper Ore": 20 },
+    "output": { "Iron Ingot": 50 }
+    }
+  ],
+
+  "Copper Ingot": [
+    {
+    "name": "Copper Ingot",
+    "machine": "Smelter",
+    "input": { "Copper Ore": 30 },
+    "output": { "Copper Ingot": 30 }
+    },
+    {
+    "name": "Pure Copper Ingot (Alternate)",
+    "machine": "Smelter",
+    "input": { "Copper Ore": 15, "Water": 10 },
+    "output": { "Copper Ingot": 37.5 }
+    },
+    {
+    "name": "Copper Alloy Ingot (Alternate)",
+    "machine": "Foundry",
+    "input": { "Copper Ore": 50, "Iron Ore": 25 },
+    "output": { "Copper Ingot": 100 }
+    }
+  ],
+
+  "Caterium Ingot": [{
+    "name": "Caterium Ingot",
+    "machine": "Smelter",
+    "input": { "Caterium Ore": 45 },
+    "output": { "Caterium Ingot": 15 }
+    }],
+
+  "Steel Ingot": [{
+    "name": "Steel Ingot",
+    "machine": "Foundry",
+    "input": { "Iron Ore": 45, "Coal": 45 },
+    "output": { "Steel Ingot": 45 }
+    }],
+
+  "Aluminium Ingot": [{
+    "name": "Aluminium Ingot",
+    "machine": "Foundry",
+    "input": { "Aluminium Scrap": 90, "Silica": 75 },
+    "output": { "Aluminium Ingot": 60 }
+    }]
+}

@@ -1,0 +1,100 @@
+{
+  "Ore": [
+    {
+    "name": "Iron Ore",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Copper Ore",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Limestone",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Coal",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Sulfur",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Caterium Ore",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Raw Quartz",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Bauxite",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "Uranium",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    },
+    {
+    "name": "SAM Ore",
+    "machine": "Miner",
+    "MK1": [30,60,120],
+    "MK2": [60,120,240],
+    "MK3": [120,240,480]
+    }
+  ],
+
+  "Fluid": [
+    {
+    "name": "Crude Oil",
+    "machine": "Oil Extractor",
+    "extraction": [60,120,240]
+    },
+    {
+    "name": "Water",
+    "machine": "Water Extractor",
+    "extraction": [120]
+    },
+    {
+    "name": "Water (Resource Well)",
+    "machine": "Resource Well Extractor",
+    "extraction": [30,60,120]
+    }
+  ],
+
+  "Gas": [
+    {
+    "name": "Nitrogen",
+    "machine": "Resource Well Extractor",
+    "extraction": [30,60,120]
+    }
+  ]
+}

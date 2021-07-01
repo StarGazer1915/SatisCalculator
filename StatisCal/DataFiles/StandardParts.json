@@ -1,0 +1,91 @@
+{
+  "Iron Plate": [
+    {
+    "name": "Iron Plate",
+    "machine": "Constructor",
+    "input": { "Iron Ingot": 30 },
+    "output": { "Iron Plate": 20 }
+    },
+    {
+    "name": "Coated Iron Plate (Alternate)",
+    "machine": "Assembler",
+    "input": { "Iron Ingot": 50, "Plastic": 10 },
+    "output": { "Iron Plate": 75 }
+    },
+    {
+    "name": "Steel Coated Plate (Alternate)",
+    "machine": "Assembler",
+    "input": { "Steel Ingot": 7.5, "Plastic": 5 },
+    "output": { "Iron Plate": 45 }
+    }
+  ],
+
+  "Iron Rod": [
+    {
+    "name": "Iron Rod",
+    "machine": "Constructor",
+    "input": { "Iron Ingot": 15 },
+    "output": { "Iron Rod": 15 }
+    },
+    {
+    "name": "Steel Rod (Alternate)",
+    "machine": "Constructor",
+    "input": { "Steel Ingot": 12 },
+    "output": { "Iron Rod": 48 }
+    }
+  ],
+
+  "Screw": [
+    {
+    "name": "Screw",
+    "machine": "Constructor",
+    "input": { "Iron Rod": 10 },
+    "output": { "Screw": 40 }
+    },
+    {
+    "name": "Cast Screw (Alternate)",
+    "machine": "Constructor",
+    "input": { "Iron Ingot": 12.5 },
+    "output": { "Screw": 50 }
+    },
+    {
+    "name": "Steel Screw (Alternate)",
+    "machine": "Constructor",
+    "input": { "Steel Beam": 5 },
+    "output": { "Screw": 260 }
+    }
+  ],
+
+  "Copper Sheet": [
+    {
+    "name": "Copper Sheet",
+    "machine": "Constructor",
+    "input": { "Copper Ingot": 20 },
+    "output": { "Copper Sheet": 10 }
+    },
+    {
+    "name": "Steamed Copper Sheet (Alternate)",
+    "machine": "Refinery",
+    "input": { "Copper Ingot": 22.5, "Water": 22.5 },
+    "output": { "Copper Sheet": 22.5 }
+    }
+  ],
+
+  "Steel Beam": [
+    {
+    "name": "Steel Beam",
+    "machine": "Constructor",
+    "input": { "Steel Ingot": 60 },
+    "output": { "Steel Beam": 15 }
+    }
+  ],
+
+  "Steel Pipe": [
+    {
+    "name": "Steel Pipe",
+    "machine": "Constructor",
+    "input": { "Steel Ingot": 30 },
+    "output": { "Steel Pipe": 20 }
+    }
+  ]
+}

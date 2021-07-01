@@ -1,0 +1,70 @@
+{
+  "Wire": [
+    {
+    "name": "Wire",
+    "machine": "Constructor",
+    "input": { "Copper Ingot": 15 },
+    "output": { "Wire": 30 }
+    },
+    {
+    "name": "Fused Wire (Alternate)",
+    "machine": "Assembler",
+    "input": { "Copper Ingot": 12, "Caterium Ingot": 3 },
+    "output": { "Wire": 90 }
+    },
+    {
+    "name": "Iron Wire (Alternate)",
+    "machine": "Constructor",
+    "input": { "Iron Ingot": 12.5 },
+    "output": { "Wire": 22.5 }
+    },
+    {
+    "name": "Caterium Wire (Alternate)",
+    "machine": "Constructor",
+    "input": { "Caterium Ingot": 15 },
+    "output": { "Wire": 120 }
+    }
+  ],
+
+  "Cable": [
+    {
+    "name": "Cable",
+    "machine": "Constructor",
+    "input": { "Wire": 60 },
+    "output": { "Cable": 30 }
+    },
+    {
+    "name": "Coated Cable (Alternate)",
+    "machine": "Refinery",
+    "input": { "Wire": 37.5, "Heavy Oil Residue": 15 },
+    "output": { "Cable": 67.5 }
+    },
+    {
+    "name": "Insulated Cable (Alternate)",
+    "machine": "Assembler",
+    "input": { "Wire": 45, "Rubber": 30 },
+    "output": { "Cable": 100 }
+    },
+    {
+    "name": "Quickwire Cable (Alternate)",
+    "machine": "Assembler",
+    "input": { "Quickwire": 7.5, "Rubber": 5 },
+    "output": { "Cable": 27.5 }
+    }
+  ],
+
+  "Quickwire": [
+    {
+    "name": "Quickwire",
+    "machine": "Constructor",
+    "input": { "Caterium Ingot": 12 },
+    "output": { "Quickwire": 60 }
+    },
+    {
+    "name": "Fused Quickwire (Alternate)",
+    "machine": "Assembler",
+    "input": { "Caterium Ingot": 7.5, "Copper Ingot": 37.5 },
+    "output": { "Quickwire": 90 }
+    }
+  ]
+}
